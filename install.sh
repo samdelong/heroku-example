@@ -28,7 +28,7 @@ heroku config:set --app $projectName \
 
 
 # Push image to heroku
-git push heroku master
+git push heroku main
 
 set +eux
 
